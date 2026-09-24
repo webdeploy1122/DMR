@@ -44,7 +44,7 @@ function About() {
               are in close proximity to our projects.
             </p>
 
-            <p>We primarily sell <strong>agricultural land</strong>. We ensure precise surveying and boundary demarcation.  
+            <p>We primarily sell <strong>agriculture land</strong>. We ensure precise surveying and boundary demarcation.  
                stand by our customers, honoring the trust they place in their investment. We offer commercial plots 
                and farmlands as well. Farmlands, we can provide plots ranging from approximately 5 Guntas to several acres. 
                Whether it's agriculture land or small farm plot, we help customers cultivate fruit crops 
