@@ -5,9 +5,9 @@ const properties = [
   {
     image: "/images/agricultural lands.jpeg",
     smallTitle: "FERTILE LANDS",
-    title: "Agricultural Lands",
+    title: "Agriculture Lands",
     description:
-      "Own a piece of nature with strategically located agricultural lands, offering fertile surroundings, convenient connectivity, and a valuable opportunity for your future",
+      "Own a piece of nature with strategically located agriculture lands, offering fertile surroundings, convenient connectivity, and a valuable opportunity for your future",
   },
   {
     image: "/images/Commerciallands.jpeg",
