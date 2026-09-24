@@ -35,11 +35,11 @@ function About() {
              later he started this company to reach wider audience.
             </p>
             <p>
-              To date, alongside a team of <strong>38 team leads</strong>, He has facilitated the sale of over<strong>1,300 acres </strong>
+              To date, alongside a team of <strong>38 team leads</strong>, He has facilitated the sale of over<strong> 1,300 acres </strong>
               of land to 518 customers across Sangareddy, Jogipet, Narayankhed, Rangareddy, Kamareddy, Nizamabad, Zaheerabad, Hyderabad, and Bidar regions.
             </p>
             <p>
-              Other areas we sold lands include <strong>Nizamsagar, Singur, Nallavagu, and Kaulas </strong>project areas. 
+              Other areas we sold lands include <strong>Nizamsagar, Singur, Nallavagu and Kaulas </strong>project areas. 
               Additionally, National Investment and Manufacturing Zone (NIMZ) in Zaheerabad and the Bidar Airport 
               are in close proximity to our projects.
             </p>
