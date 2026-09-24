@@ -35,7 +35,7 @@ function About() {
              later he started this company to reach wider audience.
             </p>
             <p>
-              To date, alongside a team of <strong>38 team leads</strong>, He has facilitated the sale of over<strong> 1,300 acres </strong>
+              To date, alongside a team of <strong>38 team leads</strong>, He has facilitated the sale of over <strong> 1,300 acres </strong>
               of land to 518 customers across Sangareddy, Jogipet, Narayankhed, Rangareddy, Kamareddy, Nizamabad, Zaheerabad, Hyderabad, and Bidar regions.
             </p>
             <p>
