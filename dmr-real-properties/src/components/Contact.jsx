@@ -1,37 +1,12 @@
-import { useState } from "react";
 import { MapPin } from "lucide-react";
+
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-
-    setFormData((previous) => ({
-      ...previous,
-      [name]: value,
-    }));
-  };
-  const handleWhatsApp = (event) => {
-    event.preventDefault();
-
+  const handleWhatsApp = () => {
     const whatsappNumber = "919440980707";
 
-    const whatsappMessage = `
-Hello DMR Real Properties,
-I am interested in your property services.
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Message:
-${formData.message}
+    const whatsappMessage =
+      "Hello DMR Real Properties, I am interested in your property services.";
 
-Thank you.
-`;
     const whatsappURL =
       `https://wa.me/${whatsappNumber}?text=` +
       encodeURIComponent(whatsappMessage);
@@ -53,33 +28,41 @@ Thank you.
             Let's discuss your
             <span> property goals.</span>
           </h3>
+
           <p>
             <strong>
-            Looking for a property or investment
-            opportunity? Get in touch with DMR Real
-            Properties.
+              Looking for a property or investment
+              opportunity? Get in touch with DMR Real
+              Properties.
             </strong>
           </p>
         </div>
+
         <div className="contact-grid">
+
           {/* =====================================
               LEFT SIDE - CONTACT INFORMATION
           ====================================== */}
           <div className="contact-info">
+
             <h3>
               DMR Real Properties
             </h3>
+
             <p>
               Our team is ready to help you find
               the right property opportunity.
             </p>
+
             {/* Phone */}
             <div className="contact-item">
               <div className="contact-icon">
                 ☎
               </div>
+
               <div>
                 <span>Phone</span>
+
                 <strong>
                   +91 94409 80707
                   <br />
@@ -137,7 +120,7 @@ Thank you.
 
                 <strong>
                   # 3-37, Bypass Road,
-                  Narayankhed,Sangareddy Dist, 
+                  Narayankhed,Sangareddy Dist,
                   <br />
                   Telangana State - 502286
                 </strong>
@@ -148,104 +131,43 @@ Thank you.
 
 
           {/* =====================================
-              RIGHT SIDE - CONTACT FORM
+              RIGHT SIDE - WHATSAPP CONTACT
           ====================================== */}
+          <div className="whatsapp-contact">
 
-          <form
-            className="contact-form"
-            onSubmit={handleWhatsApp}
-          >
-
-            <h3 className="contact-form-title">
-              Send us a message
+            <h3>
+              Contact us through WhatsApp
             </h3>
+            {/* WhatsApp Logo */}
+  <div className="whatsapp-logo">
+    <img
+      src="/images/whatsapp.png"
+      alt="WhatsApp"
+    />
+  </div>
 
-            {/* Name + Email */}
-            <div className="form-row">
+            <p>
+              Connect with DMR Real Properties
+              directly through WhatsApp.
+            </p>
 
-              <div className="form-group">
-                <label>
-                  Your Name
-                </label>
-
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-
-              <div className="form-group">
-                <label>
-                  Email
-                </label>
-
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-
-            </div>
-
-
-            {/* Phone */}
-            <div className="form-group">
-              <label>
-                Phone Number
-              </label>
-
-              <input
-                type="tel"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                placeholder="+91 XXXXX XXXXX"
-                required
-              />
-            </div>
-
-
-            {/* Message */}
-            <div className="form-group">
-              <label>
-                Message
-              </label>
-
-              <textarea
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                placeholder="Tell us how we can help you..."
-                required
-              ></textarea>
-            </div>
-
-
-            {/* WhatsApp Button */}
             <button
-              type="submit"
+              type="button"
               className="whatsapp-submit"
+              onClick={handleWhatsApp}
             >
               <span className="whatsapp-icon-small">
                 ☏
               </span>
 
-              WhatsApp Us
+              WhatsApp
 
               <span className="button-arrow">
                 →
               </span>
             </button>
 
-          </form>
+          </div>
 
         </div>
       </div>
