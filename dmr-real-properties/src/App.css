@@ -1996,6 +1996,18 @@
 
     gap: 18px;
   }
+
+  .whatsapp-contact {
+    padding: 40px 20px;
+  }
+
+  .whatsapp-contact h3 {
+    font-size: 26px;
+  }
+
+  .whatsapp-contact p {
+    font-size: 16px;
+  }
 }
 
 
@@ -2061,3 +2073,48 @@
     padding: 24px 18px;
   }
 }
+
+/*Whatsapp*/
+
+.whatsapp-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  padding: 50px 40px;
+}
+
+.whatsapp-contact h3 {
+  font-size: 32px;
+  color: var(--dark-green);
+  margin-bottom: 15px;
+}
+
+.whatsapp-contact p {
+  color: var(--gray);
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.whatsapp-contact .whatsapp-submit {
+  border: none;
+  cursor: pointer;
+}
+
+
+.whatsapp-logo {
+  margin: 15px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-logo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+} 
